@@ -1,111 +1,188 @@
 :root {
-  --text: #6b6375;
-  --text-h: #08060d;
-  --bg: #fff;
-  --border: #e5e4e7;
-  --code-bg: #f4f3ec;
-  --accent: #aa3bff;
-  --accent-bg: rgba(170, 59, 255, 0.1);
-  --accent-border: rgba(170, 59, 255, 0.5);
-  --social-bg: rgba(244, 243, 236, 0.5);
-  --shadow:
-    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
-
-  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
-
-  font: 18px/145% var(--sans);
-  letter-spacing: 0.18px;
-  color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
+  font-family: "Inter", "Segoe UI", "Helvetica Neue", sans-serif;
+  color: #e8eaf3;
+  background: #0a0b10;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  @media (max-width: 1024px) {
-    font-size: 16px;
-  }
+  --surface: #11131b;
+  --surface-raised: #171a24;
+  --line: rgba(192, 198, 220, 0.1);
+  --text-muted: #9da3b7;
+  --accent: #a78bfa;
+  --accent-bright: #c4b5fd;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --text: #9ca3af;
-    --text-h: #f3f4f6;
-    --bg: #16171d;
-    --border: #2e303a;
-    --code-bg: #1f2028;
-    --accent: #c084fc;
-    --accent-bg: rgba(192, 132, 252, 0.15);
-    --accent-border: rgba(192, 132, 252, 0.5);
-    --social-bg: rgba(47, 48, 58, 0.5);
-    --shadow:
-      rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-  }
-
-  #social .button-icon {
-    filter: invert(1) brightness(2);
-  }
-}
-
-body {
-  margin: 0;
-}
-
-#root {
-  width: 1126px;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  border-inline: 1px solid var(--border);
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
+* {
   box-sizing: border-box;
 }
 
-h1,
-h2 {
-  font-family: var(--heading);
-  font-weight: 500;
-  color: var(--text-h);
+html {
+  min-width: 320px;
+  min-height: 100%;
+  background: #0a0b10;
+  color-scheme: dark;
+  scroll-behavior: smooth;
 }
 
-h1 {
-  font-size: 56px;
-  letter-spacing: -1.68px;
-  margin: 32px 0;
-  @media (max-width: 1024px) {
-    font-size: 36px;
-    margin: 20px 0;
-  }
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+  background:
+    radial-gradient(ellipse at 50% -18%, rgba(116, 79, 205, 0.2), transparent 46rem),
+    radial-gradient(ellipse at 100% 48%, rgba(53, 78, 136, 0.08), transparent 38rem),
+    #0a0b10;
+  color: #e8eaf3;
+  font: 15px/1.6 "Inter", "Segoe UI", "Helvetica Neue", sans-serif;
 }
-h2 {
-  font-size: 24px;
-  line-height: 118%;
-  letter-spacing: -0.24px;
-  margin: 0 0 8px;
-  @media (max-width: 1024px) {
-    font-size: 20px;
-  }
+
+button,
+input {
+  font: inherit;
 }
+
+a {
+  color: var(--accent-bright);
+  text-decoration-color: rgba(196, 181, 253, 0.45);
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  color: #ddd2ff;
+}
+
+#root {
+  width: min(1200px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 0 28px;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-main {
+  width: 100%;
+  flex: 1;
+  padding: 38px 0 48px;
+  animation: page-enter 360ms ease-out both;
+}
+
+.page-heading {
+  margin: 0 0 24px;
+  text-align: left;
+}
+
+.page-heading h1 {
+  margin: 0;
+  color: #f5f3ff;
+  font-size: clamp(1.7rem, 3vw, 2.35rem);
+  font-weight: 720;
+  letter-spacing: -0.055em;
+  line-height: 1.15;
+}
+
+.page-heading p {
+  margin: 8px 0 0;
+  color: var(--text-muted);
+  font-size: 0.98rem;
+}
+
+.content-panel {
+  min-height: 240px;
+  padding: clamp(18px, 3vw, 30px);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: linear-gradient(145deg, rgba(20, 22, 32, 0.94), rgba(15, 17, 25, 0.92));
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.25);
+}
+
+.ratings-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.ratings-toolbar .MuiTextField-root {
+  min-width: min(260px, 100%);
+}
+
+.ratings-toolbar .MuiToggleButtonGroup-root {
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.ratings-toolbar .MuiToggleButton-root {
+  min-width: 46px;
+  padding: 6px 9px;
+}
+
+h1,
+h2,
+h3 {
+  color: #f5f3ff;
+  font-family: inherit;
+}
+
 p {
   margin: 0;
 }
 
 code,
 .counter {
-  font-family: var(--mono);
   display: inline-flex;
-  border-radius: 4px;
-  color: var(--text-h);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #1b1d29;
+  color: #ddd2ff;
+  font-family: "Cascadia Code", Consolas, monospace;
 }
 
 code {
-  font-size: 15px;
-  line-height: 135%;
-  padding: 4px 8px;
-  background: var(--code-bg);
+  padding: 3px 7px;
+  font-size: 0.88em;
+}
+
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  #root {
+    padding: 0 14px;
+  }
+
+  .app-main {
+    padding: 26px 0 34px;
+  }
+
+  .content-panel {
+    border-radius: 15px;
+  }
+
+  .ratings-toolbar {
+    gap: 10px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }

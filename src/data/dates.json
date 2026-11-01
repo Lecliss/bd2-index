@@ -1,0 +1,95 @@
+{
+  "lastUpdated": "2026-11-01",
+  "entries": [
+    {
+        "type": "banner",
+        "costumeId": 1207,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-11-05",
+        "endDate": "2026-12-03"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999991,
+        "isRerun": false,
+        "isLimited": false,
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-19"
+    },
+    {
+        "type": "banner",
+        "costumeId": 4002,
+        "isRerun": true,
+        "isLimited": true,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "banner",
+        "costumeId": 61103,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999992,
+        "isRerun": false,
+        "isLimited": false,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-03"
+    },
+    {
+        "type": "banner",
+        "costumeId": 3201,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-03"
+    },
+    {
+        "type": "powder",
+        "costumeId": 4102,
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-19"
+    },
+    {
+        "type": "powder",
+        "costumeId": 67902,
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-19"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3403,
+        "startDate": "2026-11-05",
+        "endDate": "2026-11-19"
+    },
+    {
+        "type": "powder",
+        "costumeId": 999991,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-03"
+    },
+    {
+        "type": "powder",
+        "costumeId": 1207,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "powder",
+        "costumeId": 999992,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3201,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-17"
+    }
+  ]
+}

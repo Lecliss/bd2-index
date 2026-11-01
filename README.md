@@ -1,16 +1,18 @@
-# React + Vite
+# BD2 Index
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Brown Dust 2 fan site for banner schedules, costume ratings, tier lists, and community resources.
 
-Currently, two official plugins are available:
+## Schedule data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Edit [`src/data/dates.json`](./src/data/dates.json) to update banner and Powder of Hope shop entries:
 
-## React Compiler
+- Set `lastUpdated` to the date the schedule data was last reviewed, using `YYYY-MM-DD`.
+- Add or update entries in `entries`, with `type` set to `banner` or `powder`.
+- Use `startDate` and `endDate` in `YYYY-MM-DD` format. The page heading's date range is calculated from these entries.
+- Banner entries also use `isRerun` and `isLimited`; entries with a known costume should use its `costumeId`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The schedule page displays the `lastUpdated` date so visitors can assess how current the information is.
 
-## Expanding the ESLint configuration
+## Development
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies with `npm install`, then start the local development server with `npm run dev`. Run `npm run build` to create the production site.
