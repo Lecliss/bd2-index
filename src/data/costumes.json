@@ -607,7 +607,7 @@
 		"ratingGR": 3,
 		"ratingLN": 2,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 4
     },
     {
@@ -1036,7 +1036,7 @@
 		"ratingGR": 1,
 		"ratingLN": 1,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 2
     },
     {
@@ -1102,7 +1102,7 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 3
     },
     {
         "id": 20801,
@@ -1141,7 +1141,7 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 2
     },
     {
         "id": 60301,
@@ -1193,7 +1193,7 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 2
     },
     {
         "id": 60403,
@@ -1296,7 +1296,7 @@
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 3,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 4
     },
     {
@@ -1375,7 +1375,7 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 1
+		"ratingGB": 2
     },
     {
         "id": 61102,
@@ -1426,7 +1426,7 @@
 		"ratingGR": 3,
 		"ratingLN": 2,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 4
     },
     {
@@ -1570,7 +1570,7 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 2
     },
     {
         "id": 66803,
@@ -2038,7 +2038,7 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 3
     },
     {
         "id": 21301,
@@ -2063,7 +2063,7 @@
 		"ratingGR": 3,
 		"ratingLN": 3,
 		"ratingMW": 2,
-		"ratingGC": 1,
+		"ratingGC": 3,
 		"ratingGB": 1
 	},
 	{
