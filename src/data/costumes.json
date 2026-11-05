@@ -10,7 +10,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 102,
@@ -23,7 +29,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 103,
@@ -36,7 +48,17 @@
 		"ratingLN": 4,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Longer buff duration 4 -> 6 turns"
+            }
+        ]
     },
     {
         "id": 104,
@@ -49,7 +71,17 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Buff durations 4 -> 6 turns"
+            }
+        ]
     },
     {
         "id": 105,
@@ -62,7 +94,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 106,
@@ -75,7 +113,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 201,
@@ -88,7 +132,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 202,
@@ -101,7 +151,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 203,
@@ -114,7 +170,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 204,
@@ -127,7 +189,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 206,
@@ -140,7 +208,21 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Evasion count 2 -> 3"
+            },
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Evasion count 3 -> 4"
+            }
+        ]
     },
     {
         "id": 301,
@@ -153,7 +235,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 303,
@@ -166,7 +254,13 @@
 		"ratingLN": 3,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 304,
@@ -179,7 +273,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 306,
@@ -192,7 +292,13 @@
 		"ratingLN": 4,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 401,
@@ -205,7 +311,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 402,
@@ -218,7 +330,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 403,
@@ -231,7 +349,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 406,
@@ -244,7 +368,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 501,
@@ -257,7 +387,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 502,
@@ -270,7 +406,21 @@
 		"ratingLN": 4,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Max Crit Rate buff (50%)"
+            },
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max buffs"
+            }
+        ]
     },
     {
         "id": 504,
@@ -283,7 +433,13 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 506,
@@ -309,7 +465,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 3,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 604,
@@ -322,7 +484,13 @@
 		"ratingLN": 2,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 701,
@@ -335,7 +503,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 706,
@@ -361,7 +535,13 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 708,
@@ -387,7 +567,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 804,
@@ -400,7 +586,13 @@
 		"ratingLN": 2,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 806,
@@ -413,7 +605,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 807,
@@ -426,7 +624,21 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "DoT Vulnerability 150% -> 200%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "DoT Vulnerability 200% -> 250%"
+            }
+        ]
     },
     {
         "id": 1001,
@@ -439,7 +651,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 3,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 1002,
@@ -452,7 +670,21 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Buff durations 2 -> 4 turns"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Buff durations 4 -> 6 turns"
+            }
+        ]
     },
     {
         "id": 1004,
@@ -465,7 +697,21 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Energy Guard duration 3 hits -> 4 hits"
+            },
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Energy Guard duration 4 hits -> 5 hits"
+            }
+        ]
     },
     {
         "id": 1006,
@@ -478,7 +724,13 @@
 		"ratingLN": 3,
 		"ratingMW": 3,
 		"ratingGC": 2,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 1101,
@@ -491,7 +743,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 1106,
@@ -504,7 +762,17 @@
 		"ratingLN": 4,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max buffs"
+            }
+        ]
     },
     {
         "id": 1107,
@@ -517,7 +785,21 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 4,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Augmentation duration 4 -> 8 turns"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Augmentation"
+            }
+        ]
     },
     {
         "id": 1201,
@@ -525,12 +807,18 @@
         "charName": "Liatris",
         "damageType": "Physical",
         "element": "Fire",
-		"ratingFH": 4,
+		"ratingFH": 3,
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 1206,
@@ -543,7 +831,13 @@
 		"ratingLN": 2,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 1207,
@@ -551,12 +845,22 @@
         "charName": "Liatris",
         "damageType": "Physical",
         "element": "Fire",
-		"ratingFH": 4,
+		"ratingFH": 3,
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Both conditional and regular damage increases"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Both conditional and regular damage increases"
+            }
+        ]
     },
     {
         "id": 2401,
@@ -569,7 +873,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Crit Rate buff 20% -> 30%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max buffs"
+            }
+        ]
     },
     {
         "id": 2403,
@@ -582,7 +900,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 5,
+                "desc": "Max buffs (summon)"
+            }
+        ]
     },
     {
         "id": 2406,
@@ -595,7 +919,17 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 3,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Cooldown 5 turns -> 3 turns"
+            }
+        ]
     },
     {
         "id": 3201,
@@ -621,7 +955,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Magic ATK buff 60% -> 80%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Magic ATK buff 80% -> 100%"
+            }
+        ]
     },
     {
         "id": 3203,
@@ -634,7 +982,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 3301,
@@ -647,7 +1001,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Augmentation 100% -> 125%, Crit DMG 200% -> 250%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Augmentation 125% -> 150%, Crit DMG 250% -> 300%"
+            }
+        ]
     },
     {
         "id": 3302,
@@ -660,7 +1028,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "ATK buff duration 6 turns -> 10 turns"
+            }
+        ]
     },
     {
         "id": 3303,
@@ -673,7 +1051,21 @@
 		"ratingLN": 4,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Damage increase per buff 15% -> 20%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Damage increase per buff 20% -> 25%"
+            }
+        ]
     },
     {
         "id": 3401,
@@ -712,7 +1104,17 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Summons Vulnerability"
+            }
+        ]
     },
     {
         "id": 3501,
@@ -725,7 +1127,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Cooldown 3 turns -> 1 turn"
+            }
+        ]
     },
     {
         "id": 3601,
@@ -738,7 +1150,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 3602,
@@ -751,7 +1169,17 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Evasion count 2 -> 3"
+            }
+        ]
     },
     {
         "id": 3603,
@@ -764,7 +1192,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 3604,
@@ -777,7 +1211,21 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Magic ATK buff 60% -> 80%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Magic ATK buff 80% -> 100%"
+            }
+        ]
     },
     {
         "id": 3701,
@@ -790,7 +1238,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Counter duration 8 hits -> 10 hits"
+            }
+        ]
     },
     {
         "id": 3702,
@@ -803,7 +1257,21 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Additonal damage per debuff 70% -> 90%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Additonal damage per debuff 90% -> 110%"
+            }
+        ]
     },
     {
         "id": 3703,
@@ -816,7 +1284,17 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Vulnerability (140%)"
+            }
+        ]
     },
     {
         "id": 3801,
@@ -829,7 +1307,21 @@
 		"ratingLN": 4,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Crit Rate buff 25% -> 50%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max buffs"
+            }
+        ]
     },
     {
         "id": 3802,
@@ -842,7 +1334,17 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Augmentation"
+            }
+        ]
     },
     {
         "id": 3803,
@@ -855,7 +1357,17 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Crit Rate buff 30% -> 70%"
+            }
+        ]
     },
     {
         "id": 3901,
@@ -868,7 +1380,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Vulnerability 55% -> 80%, Dark Vulnerability 75% -> 115%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Vulnerability 80% -> 105%, Dark Vulnerability 115% -> 155%"
+            }
+        ]
     },
     {
         "id": 3902,
@@ -881,7 +1407,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Nightmare duration 2 turns -> 4 turns"
+            }
+        ]
     },
     {
         "id": 4001,
@@ -894,7 +1430,21 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Main Target damage 775% -> 950%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Main Target damage 950% -> 1125%"
+            }
+        ]
     },
     {
         "id": 4002,
@@ -907,7 +1457,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Cooldown 17 turns -> 15 turns"
+            }
+        ]
     },
     {
         "id": 4101,
@@ -920,7 +1480,13 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 4,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 4102,
@@ -932,8 +1498,18 @@
 		"ratingGR": 2,
 		"ratingLN": 1,
 		"ratingMW": 1,
-		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGC": 3,
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Damage increase per SP consumed 100% -> 130%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Damage increase per SP consumed 130% -> 160%"
+            }
+        ]
     },
     {
         "id": 4201,
@@ -946,7 +1522,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 4202,
@@ -959,7 +1541,13 @@
 		"ratingLN": 2,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 4301,
@@ -972,7 +1560,13 @@
 		"ratingLN": 4,
 		"ratingMW": 2,
 		"ratingGC": 3,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 20001,
@@ -985,7 +1579,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 20002,
@@ -998,7 +1598,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1 
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Vulnerability 100% -> 125%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Vulnerability 125% -> 150%"
+            }
+        ]
     },
     {
         "id": 20101,
@@ -1011,7 +1625,17 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Main Target damage 300% -> 450%"
+            }
+        ]
     },
     {
         "id": 20102,
@@ -1024,7 +1648,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 20201,
@@ -1050,7 +1680,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1 
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Augmentation 400% -> 650%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Augmentation 650% -> 900%"
+            }
+        ]
     },
     {
         "id": 20401,
@@ -1063,7 +1707,21 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Frostbite damage 10% -> 15%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Frostbite damage 15% -> 20%"
+            }
+        ]
     },
     {
         "id": 20501,
@@ -1076,7 +1734,17 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Cooldown 3 turns -> 1 turn"
+            }
+        ]
     },
     {
         "id": 20601,
@@ -1102,7 +1770,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Vulnerability 50% -> 60%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Vulnerability 60% -> 70%"
+            }
+        ]
     },
     {
         "id": 20801,
@@ -1115,7 +1797,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 20901,
@@ -1128,7 +1816,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 21001,
@@ -1141,7 +1835,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "ATK buff 60% -> 80%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "ATK buff 80% -> 100%"
+            }
+        ]
     },
     {
         "id": 60301,
@@ -1154,7 +1862,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 60302,
@@ -1167,7 +1881,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 1 
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 60401,
@@ -1180,7 +1900,17 @@
 		"ratingLN": 3,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Max ATK reduction (65%)"
+            }
+        ]
     },
     {
         "id": 60402,
@@ -1193,7 +1923,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Max Magic ATK reduction (65%)"
+            }
+        ]
     },
     {
         "id": 60403,
@@ -1206,7 +1946,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Chain Reinforcement duration 4 turns -> 6 turns"
+            }
+        ]
     },
     {
         "id": 60501,
@@ -1219,7 +1969,21 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "Crit DMG buff 350% -> 450%"
+            },
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Crit DMG buff 450% -> 600%"
+            }
+        ]
     },
     {
         "id": 60502,
@@ -1232,7 +1996,21 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1 
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "Crit DMG buff 350% -> 450%"
+            },
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Crit DMG buff 450% -> 600%"
+            }
+        ]
     },
     {
         "id": 60601,
@@ -1245,7 +2023,17 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Barrier & Taunt duration 2 turns -> 4 turns"
+            }
+        ]
     },
     {
         "id": 60602,
@@ -1258,7 +2046,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 1 
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 60701,
@@ -1271,7 +2065,13 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 60702,
@@ -1284,7 +2084,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 60706,
@@ -1297,7 +2103,21 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 2,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Vulnerability 50% -> 75%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Vulnerability 75% -> 100%"
+            }
+        ]
     },
     {
         "id": 60801,
@@ -1310,7 +2130,17 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Debuff durations 4 turns -> 6 turns"
+            }
+        ]
     },
     {
         "id": 60802,
@@ -1323,7 +2153,13 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 60804,
@@ -1336,7 +2172,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Augmentation 70% -> 85%, Stacking Augmentation 4% -> 6%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Augmentation 85% -> 100%, Stacking Augmentation 6% -> 8%"
+            }
+        ]
     },
     {
         "id": 61001,
@@ -1349,7 +2199,17 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Restore 4 SP -> 6 SP"
+            }
+        ]
     },
     {
         "id": 61002,
@@ -1362,7 +2222,17 @@
 		"ratingLN": 4,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Crit Rate buff 25% -> 50%"
+            }
+        ]
     },
     {
         "id": 61101,
@@ -1375,7 +2245,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 3,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 61102,
@@ -1388,7 +2264,13 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 61103,
@@ -1401,7 +2283,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "ATK/Magic ATK buff 20% -> 40%, Vulnerability 30% -> 40%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "ATK/Magic ATK buff 40% -> 60%, Vulnerability 40% -> 50%"
+            }
+        ]
     },
     {
         "id": 61302,
@@ -1414,7 +2310,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 61305,
@@ -1440,7 +2342,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 61402,
@@ -1453,7 +2361,17 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Vulnerability (50%)"
+            }
+        ]
     },
     {
         "id": 61404,
@@ -1466,7 +2384,21 @@
 		"ratingLN": 2,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Debuff duration 2 turns -> 4 turns"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Chain DMG debuff (8%)"
+            }
+        ]
     },
     {
         "id": 65102,
@@ -1479,7 +2411,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 65103,
@@ -1491,8 +2429,14 @@
 		"ratingGR": 2,
 		"ratingLN": 2,
 		"ratingMW": 3,
-		"ratingGC": 2,
-		"ratingGB": 3
+		"ratingGC": 3,
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 65802,
@@ -1518,7 +2462,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 66402,
@@ -1531,7 +2481,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 66403,
@@ -1544,7 +2500,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 66801,
@@ -1557,7 +2519,17 @@
 		"ratingLN": 2,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Restore 3 SP -> 5 SP"
+            }
+        ]
     },
     {
         "id": 66802,
@@ -1570,7 +2542,17 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Property DMG buff (100%)"
+            }
+        ]
     },
     {
         "id": 66803,
@@ -1583,7 +2565,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Buff durations 6 turns -> 8 turns"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Property DMG buffs"
+            }
+        ]
     },
     {
         "id": 66902,
@@ -1595,8 +2591,18 @@
 		"ratingGR": 1,
 		"ratingLN": 1,
 		"ratingMW": 2,
-		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGC": 3,
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Taunt duration 2 turns -> 4 turns"
+            }
+        ]
     },
     {
         "id": 66906,
@@ -1609,7 +2615,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67002,
@@ -1622,7 +2634,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67003,
@@ -1634,8 +2652,18 @@
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
-		"ratingGC": 4,
-		"ratingGB": 3
+		"ratingGC": 3,
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "ATK buff 50% -> 75%"
+            },
+            {
+                "upgrade": 3,
+                "desc": "ATK buff 75% -> 100%"
+            }
+        ]
     },
     {
         "id": 67004,
@@ -1648,7 +2676,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Light Vulnerability 100% -> 200%"
+            }
+        ]
     },
     {
         "id": 67101,
@@ -1661,7 +2699,13 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Counter duration 3 hits -> 5 hits"
+            }
+        ]
     },
     {
         "id": 67102,
@@ -1673,8 +2717,14 @@
 		"ratingGR": 4,
 		"ratingLN": 1,
 		"ratingMW": 4,
-		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGC": 3,
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Cooldown 7 turns -> 5 turns"
+            }
+        ]
     },
     {
         "id": 67103,
@@ -1687,7 +2737,13 @@
 		"ratingLN": 2,
 		"ratingMW": 3,
 		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67104,
@@ -1700,7 +2756,17 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Crit DMG buff 100% -> 150%"
+            }
+        ]
     },
     {
         "id": 67201,
@@ -1713,7 +2779,13 @@
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67202,
@@ -1726,7 +2798,17 @@
         "ratingLN": 1,
         "ratingMW": 3,
         "ratingGC": 2,
-        "ratingGB": 3
+        "ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Wind Vulnerability 75% -> 125%"
+            }
+        ]
     },
     {
         "id": 67301,
@@ -1739,7 +2821,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 3,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Vulnerability 40% -> 60%, Main Target Vulnerability 60% -> 80%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Vulnerability 60% -> 80%, Main Target Vulnerability 80% -> 100%"
+            }
+        ]
     },
     {
         "id": 67302,
@@ -1752,7 +2848,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 3,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67303,
@@ -1765,7 +2867,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Conditional damage 550% -> 725%"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Conditional damage 725% -> 900%"
+            }
+        ]
     },
     {
         "id": 67401,
@@ -1778,7 +2894,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67402,
@@ -1791,7 +2913,13 @@
 		"ratingLN": 2,
 		"ratingMW": 3,
 		"ratingGC": 3,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67403,
@@ -1804,7 +2932,21 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Crit DMG buff duration 4 turns -> 6 turns"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Crit DMG buff 300% -> 400%"
+            }
+        ]
     },
     {
         "id": 67502,
@@ -1816,8 +2958,14 @@
 		"ratingGR": 4,
 		"ratingLN": 4,
 		"ratingMW": 2,
-		"ratingGC": 4,
-		"ratingGB": 4
+		"ratingGC": 3,
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67503,
@@ -1830,7 +2978,13 @@
 		"ratingLN": 4,
 		"ratingMW": 2,
 		"ratingGC": 3,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67504,
@@ -1843,7 +2997,21 @@
 		"ratingLN": 3,
 		"ratingMW": 1,
 		"ratingGC": 3,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Acceleration ATK buff 1% -> 2%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Chain DMG buff 6% -> 8%"
+            }
+        ]
     },
     {
         "id": 67601,
@@ -1856,7 +3024,17 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 2
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Cooldown 3 turns -> 1 turn"
+            }
+        ]
     },
     {
         "id": 67603,
@@ -1869,7 +3047,17 @@
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Chain Reinforcement duration 4 turns -> 6 turns"
+            }
+        ]
     },
     {
         "id": 67604,
@@ -1894,8 +3082,18 @@
 		"ratingGR": 4,
 		"ratingLN": 4,
 		"ratingMW": 2,
-		"ratingGC": 1,
-		"ratingGB": 4
+		"ratingGC": 2,
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Augmentation"
+            }
+        ]
     },
     {
         "id": 67702,
@@ -1908,7 +3106,17 @@
 		"ratingLN": 3,
 		"ratingMW": 4,
 		"ratingGC": 2,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max buffs"
+            }
+        ]
     },
     {
         "id": 67801,
@@ -1921,7 +3129,13 @@
 		"ratingLN": 3,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 4
+		"ratingGB": 4,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 67803,
@@ -1934,7 +3148,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Vulnerability (50%)"
+            }
+        ]
     },
     {
         "id": 101101,
@@ -1947,7 +3171,17 @@
 		"ratingLN": 1,
 		"ratingMW": 4,
 		"ratingGC": 4,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Heal & Barrier duration 4 turns -> 6 turns"
+            }
+        ]
     },
     {
         "id": 101102,
@@ -1960,7 +3194,17 @@
 		"ratingLN": 1,
 		"ratingMW": 3,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Restore 2 SP -> 3 SP"
+            },
+            {
+                "upgrade": 3,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 101103,
@@ -1973,7 +3217,17 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Augmentation"
+            }
+        ]
     },
     {
         "id": 66907,
@@ -1986,7 +3240,21 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Chain Retention 6 -> 9"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Chain Retention 9 -> 12"
+            }
+        ]
     },
     {
         "id": 61003,
@@ -1999,7 +3267,21 @@
 		"ratingLN": 4,
 		"ratingMW": 2,
 		"ratingGC": 1,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Augmentation duration 6 turns -> 8 turns"
+            },
+            {
+                "upgrade": 3,
+                "desc": "Max Augmentation"
+            }
+        ]
     },
     {
         "id": 67901,
@@ -2012,7 +3294,21 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 3,
+                "desc": "ATK buff 15% -> 21%"
+            },
+            {
+                "upgrade": 5,
+                "desc": "ATK buff 21% -> 27%"
+            }
+        ]
     },
     {
         "id": 21101,
@@ -2038,7 +3334,13 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 2,
-		"ratingGB": 3
+		"ratingGB": 3,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
     {
         "id": 21301,
@@ -2051,7 +3353,13 @@
 		"ratingLN": 1,
 		"ratingMW": 2,
 		"ratingGC": 2,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
     },
 	{
 		"id": 4302,
@@ -2064,7 +3372,13 @@
 		"ratingLN": 3,
 		"ratingMW": 2,
 		"ratingGC": 3,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
 	},
 	{
 		"id": 67902,
@@ -2077,14 +3391,36 @@
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
-		"ratingGB": 1
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            }
+        ]
 	},
 	{
-		"id": 999991,
+		"id": 68001,
 		"name": "Night of Betrayal",
 		"charName": "Valze",
 		"damageType": "Magical",
-		"element": "Darkness"
+		"element": "Darkness",
+		"ratingFH": 3,
+		"ratingGR": 3,
+		"ratingLN": 1,
+		"ratingMW": 1,
+		"ratingGC": 1,
+		"ratingGB": 1,
+        "breakpoints": [
+            {
+                "upgrade": 2,
+                "desc": "Damage increase per Bloodfever stack 15% -> 20%"
+            },
+            {
+                "upgrade": 4,
+                "desc": "Damage increase per Bloodfever stack 20% -> 25%"
+            }
+        ]
 	},
 	{
 		"id": 999992,

@@ -11,7 +11,7 @@
     },
     {
         "type": "banner",
-        "costumeId": 999991,
+        "costumeId": 68001,
         "isRerun": false,
         "isLimited": false,
         "startDate": "2026-11-05",
@@ -75,7 +75,7 @@
     },
     {
         "type": "powder",
-        "costumeId": 999991,
+        "costumeId": 68001,
         "startDate": "2026-11-19",
         "endDate": "2026-12-03"
     },

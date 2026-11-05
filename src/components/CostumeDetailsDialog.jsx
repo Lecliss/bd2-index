@@ -1,10 +1,15 @@
 import { useState } from "react"
-import { Button, Dialog, DialogActions, DialogContent, DialogTitle, IconButton, Stack, Typography } from "@mui/material"
+import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, IconButton, Stack, Typography } from "@mui/material"
 
 import imgRankA from "../assets/icon/rank_a.png"
 import imgRankB from "../assets/icon/rank_b.png"
 import imgRankC from "../assets/icon/rank_c.png"
 import imgRankS from "../assets/icon/rank_s.png"
+import imgUpgrade1 from "../assets/icon/upgrade_1.png"
+import imgUpgrade2 from "../assets/icon/upgrade_2.png"
+import imgUpgrade3 from "../assets/icon/upgrade_3.png"
+import imgUpgrade4 from "../assets/icon/upgrade_4.png"
+import imgUpgrade5 from "../assets/icon/upgrade_5.png"
 import imgElementDark from "../assets/icon/element_dark.png"
 import imgElementFire from "../assets/icon/element_fire.png"
 import imgElementLight from "../assets/icon/element_light.png"
@@ -45,6 +50,14 @@ const elementImages = {
 const damageTypeImages = {
   Magical: imgTypeMagical,
   Physical: imgTypePhysical,
+}
+
+const upgradeImages = {
+  1: imgUpgrade1,
+  2: imgUpgrade2,
+  3: imgUpgrade3,
+  4: imgUpgrade4,
+  5: imgUpgrade5,
 }
 
 export const CostumeDetailsDialog = ({ costume, onClose, actionLabel = "pull" }) => {
@@ -130,16 +143,54 @@ export const CostumeDetailsDialog = ({ costume, onClose, actionLabel = "pull" })
             </Stack>
           </Stack>
         </Stack>
+        <Box component="section" aria-labelledby="costume-breakpoints-title" sx={{ mt: 3 }}>
+          <Typography id="costume-breakpoints-title" component="h2" variant="h6" sx={{ mb: 1.25 }}>
+            Notable thresholds
+          </Typography>
+          {costume.breakpoints?.length ? (
+            <Stack spacing={1}>
+              {[...costume.breakpoints]
+                .sort((a, b) => a.upgrade - b.upgrade)
+                .map(({ upgrade, desc }) => (
+                  <Stack
+                    key={`${upgrade}-${desc}`}
+                    direction="row"
+                    spacing={1.5}
+                    sx={{
+                      alignItems: "center",
+                      p: 1.25,
+                      border: "1px solid rgba(192, 198, 220, 0.1)",
+                      borderRadius: 2,
+                      backgroundColor: "rgba(255, 255, 255, 0.018)",
+                    }}
+                  >
+                    {upgradeImages[upgrade] && (
+                      <img
+                        src={upgradeImages[upgrade]}
+                        alt={`Upgrade +${upgrade}`}
+                        style={{ display: "block", width: 36, height: 36, objectFit: "contain", flexShrink: 0 }}
+                      />
+                    )}
+                    <Typography>{desc}</Typography>
+                  </Stack>
+                ))}
+            </Stack>
+          ) : (
+            <Typography color="text.secondary"><b>None</b> (progress is fairly linear through upgrades).</Typography>
+          )}
+        </Box>
         <Typography variant="h6">
           Should you {actionLabel}?
         </Typography>
         <Stack direction="column" spacing={1} sx={{ alignItems: "center" }}>
           <Typography>
-            Click the rating icons for the modes above to see more details about this costume's performance for that mode.
+            <b>Click the rating icons for the modes above to see more details about this costume's performance for that mode.</b>
           </Typography>
           <Typography>
-            <a href="https://zormolo.github.io/BD2-Banner-Recommendation/">BD2 Banner Recommendations</a> by Zormolo & Botan |&nbsp;
-            <a href={wikiLink}>{costume.name} {costume.charName}</a> in the Miraheze Wiki
+            <a href="https://zormolo.github.io/BD2-Banner-Recommendation/">BD2 Banner Recommendations</a> by Zormolo & Botan
+          </Typography>
+          <Typography>
+            <a href={wikiLink}>{costume.name} {costume.charName}</a> in the Miraheze Wiki for more information about this costume
           </Typography>
         </Stack>
       </DialogContent>
