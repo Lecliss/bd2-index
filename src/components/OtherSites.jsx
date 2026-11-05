@@ -41,7 +41,7 @@ const officialLinks = [
 const communityLinks = [
   {
     name: "Tactical Compendium",
-    description: "Starter encyclopedia and gameplay guides by BotAn14XD.",
+    description: "Starter encyclopedia and gameplay guides by BotAn.",
     href: "https://botan14xd.github.io/BD2-Overview/",
     icon: AutoStoriesIcon,
     category: "Guides",
