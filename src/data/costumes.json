@@ -3278,7 +3278,7 @@
                 "desc": "Augmentation duration 6 turns -> 8 turns"
             },
             {
-                "upgrade": 3,
+                "upgrade": 5,
                 "desc": "Max Augmentation"
             }
         ]
