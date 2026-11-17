@@ -144,13 +144,10 @@ export const TierList = ({ show, costumes = [], mode, setMode }) => {
   return (
     <>
       <Stack
-        direction={{ xs: "column", sm: "row" }}
+        direction={{ xs: "column", sm: "column" }}
         spacing={1.5}
         sx={{ alignItems: { xs: "flex-start", sm: "center" }, justifyContent: "space-between", mb: 2.5 }}
       >
-        <Typography color="text.secondary">
-          Costume tiers are based on the average rating for the selected mode.
-        </Typography>
         <ToggleButtonGroup
           exclusive
           size="small"
@@ -174,6 +171,9 @@ export const TierList = ({ show, costumes = [], mode, setMode }) => {
             </ToggleButton>
           ))}
         </ToggleButtonGroup>
+          <Typography color="text.secondary">
+            Costume tiers are based on the average rating for the selected mode.
+          </Typography>
       </Stack>
 
       <Box
