@@ -484,7 +484,7 @@
 		"ratingLN": 2,
 		"ratingMW": 3,
 		"ratingGC": 1,
-		"ratingGB": 1,
+		"ratingGB": 2,
         "breakpoints": [
             {
                 "upgrade": 3,
@@ -533,7 +533,7 @@
 		"ratingFH": 3,
 		"ratingGR": 1,
 		"ratingLN": 2,
-		"ratingMW": 4,
+		"ratingMW": 3,
 		"ratingGC": 3,
 		"ratingGB": 4,
         "breakpoints": [
@@ -996,8 +996,8 @@
         "charName": "Nebris",
         "damageType": "Physical",
         "element": "Wind",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
@@ -1023,8 +1023,8 @@
         "charName": "Nebris",
         "damageType": "Physical",
         "element": "Wind",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
@@ -1356,7 +1356,7 @@
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 3,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 2,
         "breakpoints": [
             {
@@ -1429,7 +1429,7 @@
 		"ratingGR": 3,
 		"ratingLN": 4,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 1,
         "breakpoints": [
             {
@@ -1899,7 +1899,7 @@
 		"ratingGR": 4,
 		"ratingLN": 3,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 1,
         "breakpoints": [
             {
@@ -1922,7 +1922,7 @@
 		"ratingGR": 4,
 		"ratingLN": 1,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 2,
         "breakpoints": [
             {
@@ -2240,7 +2240,7 @@
         "charName": "Eleaneer",
         "damageType": "Physical",
         "element": "Darkness",
-		"ratingFH": 2,
+		"ratingFH": 3,
 		"ratingGR": 2,
 		"ratingLN": 1,
 		"ratingMW": 4,
@@ -2279,7 +2279,7 @@
         "damageType": "Physical",
         "element": "Darkness",
 		"ratingFH": 4,
-		"ratingGR": 2,
+		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
@@ -2356,8 +2356,8 @@
         "charName": "Zenith",
         "damageType": "Physical",
         "element": "Wind",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 2,
 		"ratingMW": 4,
 		"ratingGC": 2,
@@ -2379,11 +2379,11 @@
         "charName": "Zenith",
         "damageType": "Physical",
         "element": "Wind",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 2,
-		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingMW": 2,
+		"ratingGC": 2,
 		"ratingGB": 1,
         "breakpoints": [
             {
@@ -2461,7 +2461,7 @@
 		"ratingGR": 1,
 		"ratingLN": 1,
 		"ratingMW": 2,
-		"ratingGC": 2,
+		"ratingGC": 3,
 		"ratingGB": 2,
         "breakpoints": [
             {
@@ -2954,7 +2954,7 @@
         "charName": "Luvencia",
         "damageType": "Physical",
         "element": "Darkness",
-		"ratingFH": 4,
+		"ratingFH": 3,
 		"ratingGR": 4,
 		"ratingLN": 4,
 		"ratingMW": 2,
@@ -2973,7 +2973,7 @@
         "charName": "Luvencia",
         "damageType": "Physical",
         "element": "Darkness",
-		"ratingFH": 4,
+		"ratingFH": 3,
 		"ratingGR": 4,
 		"ratingLN": 4,
 		"ratingMW": 2,
@@ -3019,8 +3019,8 @@
         "charName": "Wilhelmina",
         "damageType": "Physical",
         "element": "Water",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 2,
@@ -3042,8 +3042,8 @@
         "charName": "Wilhelmina",
         "damageType": "Physical",
         "element": "Water",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 4,
 		"ratingMW": 1,
 		"ratingGC": 1,
@@ -3212,8 +3212,8 @@
         "charName": "Seir",
         "damageType": "Magical",
         "element": "Darkness",
-		"ratingFH": 4,
-		"ratingGR": 4,
+		"ratingFH": 3,
+		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
 		"ratingGC": 1,
@@ -3427,6 +3427,30 @@
 		"name": "Cheers to Victory",
 		"charName": "Venaka",
 		"damageType": "Magical",
-		"element": "Wind"
+		"element": "Wind",
+		"ratingFH": 3,
+		"ratingGR": 2,
+		"ratingLN": 1,
+		"ratingMW": 1,
+		"ratingGC": 1,
+		"ratingGB": 2,
+        "breakpoints": [
+            {
+                "upgrade": 1,
+                "desc": "SP cost -1"
+            },
+            {
+                "upgrade": 2,
+                "desc": "Buff durations 6 turns -> 8 turns"
+            },
+            {
+                "upgrade": 4,
+                "desc": "SP cost reduction buff 1 SP -> 2 SP"
+            },
+            {
+                "upgrade": 5,
+                "desc": "Max Crit DMG buff (200%)"
+            }
+        ]
 	}
 ]

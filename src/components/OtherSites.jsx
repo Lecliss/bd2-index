@@ -14,25 +14,25 @@ import DiscordIcon from "../assets/icon/Discord.svg"
 const officialLinks = [
   {
     name: "Official website",
-    description: "Visit the Brown Dust 2 website.",
+    description: "browndust2.com",
     href: "https://www.browndust2.com/en-us/",
     icon: LanguageIcon,
   },
   {
     name: "X",
-    description: "Follow Brown Dust 2 on X.",
+    description: "x.com/BROWNDUST2_EN",
     href: "https://x.com/BROWNDUST2_EN",
     icon: XIcon,
   },
   {
     name: "YouTube",
-    description: "Watch videos on the official channel.",
+    description: "youtube.com/@browndust2_en",
     href: "https://www.youtube.com/@browndust2_en",
     icon: YTIcon,
   },
   {
     name: "Discord",
-    description: "Join the official community server.",
+    description: "BrownDust2 Official",
     href: "https://discord.com/invite/browndust2",
     icon: DiscordIcon,
   },
@@ -144,9 +144,11 @@ const ResourceCard = ({ name, description, href, icon: Icon, category }) => (
                 sx={{ flexShrink: 0, color: "text.secondary", fontSize: 17 }}
               />
             </Stack>
-            <Typography variant="body2" color="text.secondary" sx={{ mt: 0.65, lineHeight: 1.55 }}>
-              {description}
-            </Typography>
+            { description && (
+              <Typography variant="body2" color="text.secondary" sx={{ mt: 0.65, lineHeight: 1.55 }}>
+                {description}
+              </Typography>
+            )}
             {category && (
               <Chip
                 label={category}

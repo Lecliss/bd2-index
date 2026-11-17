@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { Box, IconButton, Stack, ToggleButton, ToggleButtonGroup, Tooltip, Typography } from "@mui/material"
 import CostumeDetailsDialog from "./CostumeDetailsDialog"
-import { getAverageCostumeRating, getRatingTier, ratingDescriptions, ratingTiers } from "../utils/costumeRatings"
+import { getAverageCostumeRating, getRatingDescription, getRatingTier, ratingTiers } from "../utils/costumeRatings"
 import { tierModes } from "../utils/tierModes"
 
 const costumeIcons = import.meta.glob("../assets/illust/illust_inven_char*.png", {
@@ -206,7 +206,7 @@ export const TierList = ({ show, costumes = [], mode, setMode }) => {
               {label}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              {ratingDescriptions[rating]} {pullMode}.
+              {getRatingDescription(rating, mode, pullMode)}
             </Typography>
           </Box>
         ))}

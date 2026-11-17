@@ -96,6 +96,24 @@
         "costumeId": 3201,
         "startDate": "2026-12-03",
         "endDate": "2026-12-17"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3202,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-03"
+    },
+    {
+        "type": "powder",
+        "costumeId": 67301,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-03"
+    },
+    {
+        "type": "powder",
+        "costumeId": 61102,
+        "startDate": "2026-11-19",
+        "endDate": "2026-12-03"
     }
   ]
 }

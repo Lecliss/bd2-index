@@ -17,7 +17,7 @@ import imgElementWater from "../assets/icon/element_water.png"
 import imgElementWind from "../assets/icon/element_wind.png"
 import imgTypeMagical from "../assets/icon/type_magical.png"
 import imgTypePhysical from "../assets/icon/type_physical.png"
-import { getAverageCostumeRating, getRatingTier, ratingCategories, ratingDescriptions } from "../utils/costumeRatings"
+import { getAverageCostumeRating, getRatingDescription, getRatingTier, ratingCategories } from "../utils/costumeRatings"
 
 const fullCostumeImages = import.meta.glob("../assets/full/Costume_*.png", {
   eager: true,
@@ -114,7 +114,7 @@ export const CostumeDetailsDialog = ({ costume, onClose, actionLabel = "pull" })
                     {ratingImage ? (
                       <IconButton
                         aria-label={`Show ${label} ${ratingImage.alt} meaning`}
-                        onClick={() => setSelectedRating({ label, rating })}
+                        onClick={() => setSelectedRating({ field, label, rating })}
                         sx={{ p: 0 }}
                       >
                         <img src={ratingImage.image} alt={ratingImage.alt} style={{ width: 48, height: "auto" }} />
@@ -187,10 +187,10 @@ export const CostumeDetailsDialog = ({ costume, onClose, actionLabel = "pull" })
             <b>Click the rating icons for the modes above to see more details about this costume's performance for that mode.</b>
           </Typography>
           <Typography>
-            <a href="https://zormolo.github.io/BD2-Banner-Recommendation/">BD2 Banner Recommendations</a> by Zormolo & Botan
+            Also check out: <a href="https://zormolo.github.io/BD2-Banner-Recommendation/">BD2 Banner Recommendations</a> by Zormolo & Botan
           </Typography>
           <Typography>
-            <a href={wikiLink}>{costume.name} {costume.charName}</a> in the Miraheze Wiki for more information about this costume
+            See <a href={wikiLink}>{costume.name} {costume.charName}</a> in the Miraheze Wiki for more information about this costume
           </Typography>
         </Stack>
       </DialogContent>
@@ -208,7 +208,7 @@ export const CostumeDetailsDialog = ({ costume, onClose, actionLabel = "pull" })
         </DialogTitle>
         <DialogContent>
           <Typography>
-            {selectedRating && `${ratingDescriptions[selectedRating.rating]} ${selectedRating.label}.`}
+            {selectedRating && getRatingDescription(selectedRating.rating, selectedRating.field, selectedRating.label)}
           </Typography>
         </DialogContent>
         <DialogActions>
