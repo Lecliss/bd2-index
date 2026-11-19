@@ -56,7 +56,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Longer buff duration 4 -> 6 turns"
+                "desc": "Longer buff duration 4 → 6 turns"
             }
         ]
     },
@@ -79,7 +79,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Buff durations 4 -> 6 turns"
+                "desc": "Buff durations 4 → 6 turns"
             }
         ]
     },
@@ -212,7 +212,7 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Evasion count 2 -> 3"
+                "desc": "Evasion count 2 → 3"
             },
             {
                 "upgrade": 3,
@@ -220,7 +220,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Evasion count 3 -> 4"
+                "desc": "Evasion count 3 → 4"
             }
         ]
     },
@@ -632,11 +632,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "DoT Vulnerability 150% -> 200%"
+                "desc": "DoT Vulnerability 150% → 200%"
             },
             {
                 "upgrade": 5,
-                "desc": "DoT Vulnerability 200% -> 250%"
+                "desc": "DoT Vulnerability 200% → 250%"
             }
         ]
     },
@@ -678,11 +678,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Buff durations 2 -> 4 turns"
+                "desc": "Buff durations 2 → 4 turns"
             },
             {
                 "upgrade": 5,
-                "desc": "Buff durations 4 -> 6 turns"
+                "desc": "Buff durations 4 → 6 turns"
             }
         ]
     },
@@ -701,7 +701,7 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Energy Guard duration 3 hits -> 4 hits"
+                "desc": "Energy Guard duration 3 hits → 4 hits"
             },
             {
                 "upgrade": 3,
@@ -709,7 +709,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Energy Guard duration 4 hits -> 5 hits"
+                "desc": "Energy Guard duration 4 hits → 5 hits"
             }
         ]
     },
@@ -793,7 +793,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Augmentation duration 4 -> 8 turns"
+                "desc": "Augmentation duration 4 → 8 turns"
             },
             {
                 "upgrade": 5,
@@ -881,7 +881,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Crit Rate buff 20% -> 30%"
+                "desc": "Crit Rate buff 20% → 30%"
             },
             {
                 "upgrade": 5,
@@ -927,7 +927,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Cooldown 5 turns -> 3 turns"
+                "desc": "Cooldown 5 turns → 3 turns"
             }
         ]
     },
@@ -963,11 +963,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Magic ATK buff 60% -> 80%"
+                "desc": "Magic ATK buff 60% → 80%"
             },
             {
                 "upgrade": 4,
-                "desc": "Magic ATK buff 80% -> 100%"
+                "desc": "Magic ATK buff 80% → 100%"
             }
         ]
     },
@@ -1009,11 +1009,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Augmentation 100% -> 125%, Crit DMG 200% -> 250%"
+                "desc": "Augmentation 100% → 125%, Crit DMG 200% → 250%"
             },
             {
                 "upgrade": 4,
-                "desc": "Augmentation 125% -> 150%, Crit DMG 250% -> 300%"
+                "desc": "Augmentation 125% → 150%, Crit DMG 250% → 300%"
             }
         ]
     },
@@ -1036,7 +1036,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "ATK buff duration 6 turns -> 10 turns"
+                "desc": "ATK buff duration 6 turns → 10 turns"
             }
         ]
     },
@@ -1059,11 +1059,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Damage increase per buff 15% -> 20%"
+                "desc": "Damage increase per buff 15% → 20%"
             },
             {
                 "upgrade": 5,
-                "desc": "Damage increase per buff 20% -> 25%"
+                "desc": "Damage increase per buff 20% → 25%"
             }
         ]
     },
@@ -1135,7 +1135,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Cooldown 3 turns -> 1 turn"
+                "desc": "Cooldown 3 turns → 1 turn"
             }
         ]
     },
@@ -1177,7 +1177,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Evasion count 2 -> 3"
+                "desc": "Evasion count 2 → 3"
             }
         ]
     },
@@ -1219,11 +1219,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Magic ATK buff 60% -> 80%"
+                "desc": "Magic ATK buff 60% → 80%"
             },
             {
                 "upgrade": 4,
-                "desc": "Magic ATK buff 80% -> 100%"
+                "desc": "Magic ATK buff 80% → 100%"
             }
         ]
     },
@@ -1242,7 +1242,7 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Counter duration 8 hits -> 10 hits"
+                "desc": "Counter duration 8 hits → 10 hits"
             }
         ]
     },
@@ -1265,11 +1265,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Additonal damage per debuff 70% -> 90%"
+                "desc": "Additonal damage per debuff 70% → 90%"
             },
             {
                 "upgrade": 5,
-                "desc": "Additonal damage per debuff 90% -> 110%"
+                "desc": "Additonal damage per debuff 90% → 110%"
             }
         ]
     },
@@ -1315,7 +1315,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Crit Rate buff 25% -> 50%"
+                "desc": "Crit Rate buff 25% → 50%"
             },
             {
                 "upgrade": 5,
@@ -1365,7 +1365,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Crit Rate buff 30% -> 70%"
+                "desc": "Crit Rate buff 30% → 70%"
             }
         ]
     },
@@ -1388,11 +1388,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Vulnerability 55% -> 80%, Dark Vulnerability 75% -> 115%"
+                "desc": "Vulnerability 55% → 80%, Dark Vulnerability 75% → 115%"
             },
             {
                 "upgrade": 4,
-                "desc": "Vulnerability 80% -> 105%, Dark Vulnerability 115% -> 155%"
+                "desc": "Vulnerability 80% → 105%, Dark Vulnerability 115% → 155%"
             }
         ]
     },
@@ -1415,7 +1415,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Nightmare duration 2 turns -> 4 turns"
+                "desc": "Nightmare duration 2 turns → 4 turns"
             }
         ]
     },
@@ -1438,11 +1438,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Main Target damage 775% -> 950%"
+                "desc": "Main Target damage 775% → 950%"
             },
             {
                 "upgrade": 5,
-                "desc": "Main Target damage 950% -> 1125%"
+                "desc": "Main Target damage 950% → 1125%"
             }
         ]
     },
@@ -1465,7 +1465,7 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Cooldown 17 turns -> 15 turns"
+                "desc": "Cooldown 17 turns → 15 turns"
             }
         ]
     },
@@ -1503,11 +1503,11 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Damage increase per SP consumed 100% -> 130%"
+                "desc": "Damage increase per SP consumed 100% → 130%"
             },
             {
                 "upgrade": 4,
-                "desc": "Damage increase per SP consumed 130% -> 160%"
+                "desc": "Damage increase per SP consumed 130% → 160%"
             }
         ]
     },
@@ -1606,11 +1606,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Vulnerability 100% -> 125%"
+                "desc": "Vulnerability 100% → 125%"
             },
             {
                 "upgrade": 4,
-                "desc": "Vulnerability 125% -> 150%"
+                "desc": "Vulnerability 125% → 150%"
             }
         ]
     },
@@ -1633,7 +1633,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Main Target damage 300% -> 450%"
+                "desc": "Main Target damage 300% → 450%"
             }
         ]
     },
@@ -1688,11 +1688,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Augmentation 400% -> 650%"
+                "desc": "Augmentation 400% → 650%"
             },
             {
                 "upgrade": 5,
-                "desc": "Augmentation 650% -> 900%"
+                "desc": "Augmentation 650% → 900%"
             }
         ]
     },
@@ -1715,11 +1715,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Frostbite damage 10% -> 15%"
+                "desc": "Frostbite damage 10% → 15%"
             },
             {
                 "upgrade": 5,
-                "desc": "Frostbite damage 15% -> 20%"
+                "desc": "Frostbite damage 15% → 20%"
             }
         ]
     },
@@ -1742,7 +1742,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Cooldown 3 turns -> 1 turn"
+                "desc": "Cooldown 3 turns → 1 turn"
             }
         ]
     },
@@ -1778,11 +1778,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Vulnerability 50% -> 60%"
+                "desc": "Vulnerability 50% → 60%"
             },
             {
                 "upgrade": 4,
-                "desc": "Vulnerability 60% -> 70%"
+                "desc": "Vulnerability 60% → 70%"
             }
         ]
     },
@@ -1843,11 +1843,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "ATK buff 60% -> 80%"
+                "desc": "ATK buff 60% → 80%"
             },
             {
                 "upgrade": 4,
-                "desc": "ATK buff 80% -> 100%"
+                "desc": "ATK buff 80% → 100%"
             }
         ]
     },
@@ -1954,7 +1954,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Chain Reinforcement duration 4 turns -> 6 turns"
+                "desc": "Chain Reinforcement duration 4 turns → 6 turns"
             }
         ]
     },
@@ -1973,7 +1973,7 @@
         "breakpoints": [
             {
                 "upgrade": 1,
-                "desc": "Crit DMG buff 350% -> 450%"
+                "desc": "Crit DMG buff 350% → 450%"
             },
             {
                 "upgrade": 3,
@@ -1981,7 +1981,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Crit DMG buff 450% -> 600%"
+                "desc": "Crit DMG buff 450% → 600%"
             }
         ]
     },
@@ -2000,7 +2000,7 @@
         "breakpoints": [
             {
                 "upgrade": 1,
-                "desc": "Crit DMG buff 350% -> 450%"
+                "desc": "Crit DMG buff 350% → 450%"
             },
             {
                 "upgrade": 3,
@@ -2008,7 +2008,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Crit DMG buff 450% -> 600%"
+                "desc": "Crit DMG buff 450% → 600%"
             }
         ]
     },
@@ -2031,7 +2031,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Barrier & Taunt duration 2 turns -> 4 turns"
+                "desc": "Barrier & Taunt duration 2 turns → 4 turns"
             }
         ]
     },
@@ -2111,11 +2111,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Vulnerability 50% -> 75%"
+                "desc": "Vulnerability 50% → 75%"
             },
             {
                 "upgrade": 4,
-                "desc": "Vulnerability 75% -> 100%"
+                "desc": "Vulnerability 75% → 100%"
             }
         ]
     },
@@ -2138,7 +2138,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Debuff durations 4 turns -> 6 turns"
+                "desc": "Debuff durations 4 turns → 6 turns"
             }
         ]
     },
@@ -2180,11 +2180,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Augmentation 70% -> 85%, Stacking Augmentation 4% -> 6%"
+                "desc": "Augmentation 70% → 85%, Stacking Augmentation 4% → 6%"
             },
             {
                 "upgrade": 4,
-                "desc": "Augmentation 85% -> 100%, Stacking Augmentation 6% -> 8%"
+                "desc": "Augmentation 85% → 100%, Stacking Augmentation 6% → 8%"
             }
         ]
     },
@@ -2207,7 +2207,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Restore 4 SP -> 6 SP"
+                "desc": "Restore 4 SP → 6 SP"
             }
         ]
     },
@@ -2230,7 +2230,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Crit Rate buff 25% -> 50%"
+                "desc": "Crit Rate buff 25% → 50%"
             }
         ]
     },
@@ -2291,11 +2291,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "ATK/Magic ATK buff 20% -> 40%, Vulnerability 30% -> 40%"
+                "desc": "ATK/Magic ATK buff 20% → 40%, Vulnerability 30% → 40%"
             },
             {
                 "upgrade": 4,
-                "desc": "ATK/Magic ATK buff 40% -> 60%, Vulnerability 40% -> 50%"
+                "desc": "ATK/Magic ATK buff 40% → 60%, Vulnerability 40% → 50%"
             }
         ]
     },
@@ -2392,7 +2392,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Debuff duration 2 turns -> 4 turns"
+                "desc": "Debuff duration 2 turns → 4 turns"
             },
             {
                 "upgrade": 5,
@@ -2527,7 +2527,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Restore 3 SP -> 5 SP"
+                "desc": "Restore 3 SP → 5 SP"
             }
         ]
     },
@@ -2573,7 +2573,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Buff durations 6 turns -> 8 turns"
+                "desc": "Buff durations 6 turns → 8 turns"
             },
             {
                 "upgrade": 5,
@@ -2600,7 +2600,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Taunt duration 2 turns -> 4 turns"
+                "desc": "Taunt duration 2 turns → 4 turns"
             }
         ]
     },
@@ -2657,11 +2657,11 @@
         "breakpoints": [
             {
                 "upgrade": 1,
-                "desc": "ATK buff 50% -> 75%"
+                "desc": "ATK buff 50% → 75%"
             },
             {
                 "upgrade": 3,
-                "desc": "ATK buff 75% -> 100%"
+                "desc": "ATK buff 75% → 100%"
             }
         ]
     },
@@ -2684,7 +2684,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Light Vulnerability 100% -> 200%"
+                "desc": "Light Vulnerability 100% → 200%"
             }
         ]
     },
@@ -2703,7 +2703,7 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Counter duration 3 hits -> 5 hits"
+                "desc": "Counter duration 3 hits → 5 hits"
             }
         ]
     },
@@ -2722,7 +2722,7 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Cooldown 7 turns -> 5 turns"
+                "desc": "Cooldown 7 turns → 5 turns"
             }
         ]
     },
@@ -2764,7 +2764,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Crit DMG buff 100% -> 150%"
+                "desc": "Crit DMG buff 100% → 150%"
             }
         ]
     },
@@ -2806,7 +2806,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Wind Vulnerability 75% -> 125%"
+                "desc": "Wind Vulnerability 75% → 125%"
             }
         ]
     },
@@ -2829,11 +2829,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Vulnerability 40% -> 60%, Main Target Vulnerability 60% -> 80%"
+                "desc": "Vulnerability 40% → 60%, Main Target Vulnerability 60% → 80%"
             },
             {
                 "upgrade": 4,
-                "desc": "Vulnerability 60% -> 80%, Main Target Vulnerability 80% -> 100%"
+                "desc": "Vulnerability 60% → 80%, Main Target Vulnerability 80% → 100%"
             }
         ]
     },
@@ -2875,11 +2875,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Conditional damage 550% -> 725%"
+                "desc": "Conditional damage 550% → 725%"
             },
             {
                 "upgrade": 3,
-                "desc": "Conditional damage 725% -> 900%"
+                "desc": "Conditional damage 725% → 900%"
             }
         ]
     },
@@ -2940,11 +2940,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Crit DMG buff duration 4 turns -> 6 turns"
+                "desc": "Crit DMG buff duration 4 turns → 6 turns"
             },
             {
                 "upgrade": 4,
-                "desc": "Crit DMG buff 300% -> 400%"
+                "desc": "Crit DMG buff 300% → 400%"
             }
         ]
     },
@@ -3005,11 +3005,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Acceleration ATK buff 1% -> 2%"
+                "desc": "Acceleration ATK buff 1% → 2%"
             },
             {
                 "upgrade": 4,
-                "desc": "Chain DMG buff 6% -> 8%"
+                "desc": "Chain DMG buff 6% → 8%"
             }
         ]
     },
@@ -3032,7 +3032,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Cooldown 3 turns -> 1 turn"
+                "desc": "Cooldown 3 turns → 1 turn"
             }
         ]
     },
@@ -3055,7 +3055,7 @@
             },
             {
                 "upgrade": 4,
-                "desc": "Chain Reinforcement duration 4 turns -> 6 turns"
+                "desc": "Chain Reinforcement duration 4 turns → 6 turns"
             }
         ]
     },
@@ -3179,7 +3179,7 @@
             },
             {
                 "upgrade": 5,
-                "desc": "Heal & Barrier duration 4 turns -> 6 turns"
+                "desc": "Heal & Barrier duration 4 turns → 6 turns"
             }
         ]
     },
@@ -3198,7 +3198,7 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Restore 2 SP -> 3 SP"
+                "desc": "Restore 2 SP → 3 SP"
             },
             {
                 "upgrade": 3,
@@ -3248,11 +3248,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Chain Retention 6 -> 9"
+                "desc": "Chain Retention 6 → 9"
             },
             {
                 "upgrade": 4,
-                "desc": "Chain Retention 9 -> 12"
+                "desc": "Chain Retention 9 → 12"
             }
         ]
     },
@@ -3275,7 +3275,7 @@
             },
             {
                 "upgrade": 3,
-                "desc": "Augmentation duration 6 turns -> 8 turns"
+                "desc": "Augmentation duration 6 turns → 8 turns"
             },
             {
                 "upgrade": 5,
@@ -3302,11 +3302,11 @@
             },
             {
                 "upgrade": 3,
-                "desc": "ATK buff 15% -> 21%"
+                "desc": "ATK buff 15% → 21%"
             },
             {
                 "upgrade": 5,
-                "desc": "ATK buff 21% -> 27%"
+                "desc": "ATK buff 21% → 27%"
             }
         ]
     },
@@ -3414,11 +3414,11 @@
         "breakpoints": [
             {
                 "upgrade": 2,
-                "desc": "Damage increase per Bloodfever stack 15% -> 20%"
+                "desc": "Damage increase per Bloodfever stack 15% → 20%"
             },
             {
                 "upgrade": 4,
-                "desc": "Damage increase per Bloodfever stack 20% -> 25%"
+                "desc": "Damage increase per Bloodfever stack 20% → 25%"
             }
         ]
 	},
@@ -3441,11 +3441,11 @@
             },
             {
                 "upgrade": 2,
-                "desc": "Buff durations 6 turns -> 8 turns"
+                "desc": "Buff durations 6 turns → 8 turns"
             },
             {
                 "upgrade": 4,
-                "desc": "SP cost reduction buff 1 SP -> 2 SP"
+                "desc": "SP cost reduction buff 1 SP → 2 SP"
             },
             {
                 "upgrade": 5,

@@ -43,30 +43,6 @@
     },
     {
         "type": "powder",
-        "costumeId": 4102,
-        "startDate": "2026-11-05",
-        "endDate": "2026-11-19"
-    },
-    {
-        "type": "powder",
-        "costumeId": 67902,
-        "startDate": "2026-11-05",
-        "endDate": "2026-11-19"
-    },
-    {
-        "type": "powder",
-        "costumeId": 3403,
-        "startDate": "2026-11-05",
-        "endDate": "2026-11-19"
-    },
-    {
-        "type": "powder",
-        "costumeId": 1201,
-        "startDate": "2026-11-05",
-        "endDate": "2026-11-19"
-    },
-    {
-        "type": "powder",
         "costumeId": 68001,
         "startDate": "2026-11-19",
         "endDate": "2026-12-03"
