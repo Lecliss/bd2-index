@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-03",
+  "lastUpdated": "2026-11-20",
   "entries": [
     {
         "type": "banner",
@@ -8,14 +8,6 @@
         "isLimited": false,
         "startDate": "2026-11-05",
         "endDate": "2026-12-03"
-    },
-    {
-        "type": "banner",
-        "costumeId": 68001,
-        "isRerun": false,
-        "isLimited": false,
-        "startDate": "2026-11-05",
-        "endDate": "2026-11-19"
     },
     {
         "type": "banner",
@@ -35,7 +27,7 @@
     },
     {
         "type": "banner",
-        "costumeId": 999992,
+        "costumeId": 67203,
         "isRerun": false,
         "isLimited": false,
         "startDate": "2026-11-19",
@@ -81,13 +73,19 @@
     },
     {
         "type": "powder",
+        "costumeId": 68001,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "powder",
         "costumeId": 1207,
         "startDate": "2026-12-03",
         "endDate": "2026-12-17"
     },
     {
         "type": "powder",
-        "costumeId": 999992,
+        "costumeId": 67203,
         "startDate": "2026-12-03",
         "endDate": "2026-12-17"
     },
@@ -114,6 +112,170 @@
         "costumeId": 61102,
         "startDate": "2026-11-19",
         "endDate": "2026-12-03"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999991,
+        "isRerun": false,
+        "isLimited": true,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999992,
+        "isRerun": false,
+        "isLimited": false,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "banner",
+        "costumeId": 3501,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "banner",
+        "costumeId": 61402,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "banner",
+        "costumeId": 3604,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "banner",
+        "costumeId": 67502,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "banner",
+        "costumeId": 65103,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "banner",
+        "costumeId": 706,
+        "isRerun": true,
+        "isLimited": true,
+        "startDate": "2026-12-03",
+        "endDate": "2026-12-10"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999993,
+        "isRerun": false,
+        "isLimited": false,
+        "startDate": "2026-12-17",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "banner",
+        "costumeId": 60403,
+        "isRerun": true,
+        "isLimited": true,
+        "startDate": "2026-12-10",
+        "endDate": "2026-12-17"
+    },
+    {
+        "type": "banner",
+        "costumeId": 3203,
+        "isRerun": true,
+        "isLimited": true,
+        "startDate": "2026-12-17",
+        "endDate": "2026-12-24"
+    },
+    {
+        "type": "banner",
+        "costumeId": 4202,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-17",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "banner",
+        "costumeId": 604,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-24",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "powder",
+        "costumeId": 61103,
+        "startDate": "2026-12-17",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "powder",
+        "costumeId": 999992,
+        "startDate": "2026-12-17",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3501,
+        "startDate": "2026-12-17",
+        "endDate": "2026-12-31"
+    },
+    {
+        "type": "powder",
+        "costumeId": 61402,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3604,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "powder",
+        "costumeId": 67502,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "powder",
+        "costumeId": 65103,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "powder",
+        "costumeId": 604,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "powder",
+        "costumeId": 999993,
+        "startDate": "2027-01-14",
+        "endDate": "2027-01-28"
+    },
+    {
+        "type": "powder",
+        "costumeId": 4202,
+        "startDate": "2027-01-14",
+        "endDate": "2027-01-28"
     }
   ]
 }

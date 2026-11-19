@@ -276,6 +276,9 @@ const BannerAvailabilityTimeline = ({ entries, costumes, onSelectCostume }) => {
   const timelineDuration = Math.max(timelineEnd - timelineStart, 1)
   const dateMarkers = [...new Set(sortedEntries.flatMap(({ startDate, endDate }) => [startDate, endDate]))]
     .sort((a, b) => a.localeCompare(b))
+  const dateLabels = dateMarkers.length > 5
+    ? [...new Set([dateMarkers[0], dateMarkers[Math.floor((dateMarkers.length - 1) / 2)], dateMarkers[dateMarkers.length - 1]])]
+    : dateMarkers
 
   return (
     <Box component="section" aria-label="Known Banner Schedule" sx={{ minWidth: 0 }}>
@@ -318,7 +321,7 @@ const BannerAvailabilityTimeline = ({ entries, costumes, onSelectCostume }) => {
           Costume / availability
         </Typography>
         <Box sx={{ position: "relative", height: 28 }}>
-          {dateMarkers.map((date) => {
+          {dateLabels.map((date) => {
             const position = ((Date.parse(`${date}T00:00:00Z`) - timelineStart) / timelineDuration) * 100
 
             return (

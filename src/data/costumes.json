@@ -3423,7 +3423,7 @@
         ]
 	},
 	{
-		"id": 999992,
+		"id": 67203,
 		"name": "Cheers to Victory",
 		"charName": "Venaka",
 		"damageType": "Magical",
@@ -3452,5 +3452,26 @@
                 "desc": "Max Crit DMG buff (200%)"
             }
         ]
+	},
+	{
+		"id": 999991,
+		"name": "Pure Santa",
+		"charName": "Sacred Justia",
+		"damageType": "Physical",
+		"element": "Light"
+	},
+	{
+		"id": 999992,
+		"name": "Miracle Santa",
+		"charName": "Mamonir",
+		"damageType": "Magical",
+		"element": "Water"
+	},
+	{
+		"id": 999993,
+		"name": "Dominant Santa",
+		"charName": "Valze",
+		"damageType": "Magical",
+		"element": "Darkness"
 	}
 ]

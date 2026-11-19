@@ -16,6 +16,14 @@ export const formatScheduleDate = (date, includeYear = false) => {
   return `${month}. ${ordinal}${year}`
 }
 
+export const formatScheduleDateShort = (date) => {
+  const parsedDate = parseUtcDate(date)
+  const day = parsedDate.getUTCDate()
+  const month = parsedDate.getUTCMonth() + 1
+
+  return `${day}/${month}`
+}
+
 export const formatScheduleDateRange = (startDate, endDate) =>
   `${formatScheduleDate(startDate)} to ${formatScheduleDate(endDate)}.`
 
