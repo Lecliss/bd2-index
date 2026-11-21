@@ -35,7 +35,7 @@ const ratingImages = {
 const AverageRatingSymbol = ({ rating }) => {
   const tier = getRatingTier(rating)
   return tier
-    ? <Typography component="span" sx={{ color: tier.color, display: "inline", fontWeight: 700 }}>{tier.label}</Typography>
+    ? <Typography component="span" sx={{ color: tier.color, display: "inline", fontWeight: 700 }}><big>{tier.label} / {tier.description}</big></Typography>
     : null
 }
 
@@ -98,11 +98,10 @@ export const CostumeDetailsDialog = ({ costume, onClose, actionLabel = "pull" })
           )}
           <Stack spacing={2} sx={{ width: { xs: "100%", sm: "auto" } }}>
             <Typography variant="h6">
-              Total rating: <b>{averageRating === null ? "Not rated" : `${averageRating.toFixed(1)} / 4.0`}</b> <AverageRatingSymbol rating={averageRating} />
-              <br/>
-              <small>Ranked PvE: <b>{averageRatingPve === null ? "Not rated" : `${averageRatingPve.toFixed(1)} / 4.0`}</b> <AverageRatingSymbol rating={averageRatingPve} />
-              <br/>
-              Ranked PvP: <b>{averageRatingPvp === null ? "Not rated" : `${averageRatingPvp.toFixed(1)} / 4.0`}</b> <AverageRatingSymbol rating={averageRatingPvp} /></small>
+              Ranked PvE: <b>{averageRatingPve === null ? "Not rated" : `${averageRatingPve.toFixed(1)} / 4.0`}</b> 
+              <dd>→ <AverageRatingSymbol rating={averageRatingPve} /></dd>
+              Ranked PvP: <b>{averageRatingPvp === null ? "Not rated" : `${averageRatingPvp.toFixed(1)} / 4.0`}</b>
+              <dd>→ <AverageRatingSymbol rating={averageRatingPvp} /></dd>
             </Typography>
             <Stack spacing={1}>
               {ratingCategories.map(({ field, label }) => {

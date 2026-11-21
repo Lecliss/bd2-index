@@ -2820,7 +2820,7 @@
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
-		"ratingGC": 3,
+		"ratingGC": 2,
 		"ratingGB": 4,
         "breakpoints": [
             {
@@ -3409,7 +3409,7 @@
 		"ratingGR": 3,
 		"ratingLN": 1,
 		"ratingMW": 1,
-		"ratingGC": 1,
+		"ratingGC": 2,
 		"ratingGB": 1,
         "breakpoints": [
             {

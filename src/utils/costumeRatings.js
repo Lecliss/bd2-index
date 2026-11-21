@@ -8,13 +8,13 @@ export const ratingCategories = [
 ]
 
 export const ratingTiers = [
-  { label: "C", minimum: 1, color: "#008c38" },
-  { label: "C+", minimum: 1.5, color: "#00e65c" },
-  { label: "B", minimum: 2, color: "#1f5ecc" },
-  { label: "B+", minimum: 2.5, color: "#5291ff" },
-  { label: "A", minimum: 3, color: "#f040e7" },
-  { label: "A+", minimum: 3.5, color: "#f063e9" },
-  { label: "S", minimum: 3.75, color: "#fad60c" },
+  { label: "C", minimum: 1, color: "#008c38", description: "Skip" },
+  { label: "C+", minimum: 1.5, color: "#00e65c", description: "Likely skip" },
+  { label: "B", minimum: 2, color: "#1f5ecc", description: "Optional" },
+  { label: "B+", minimum: 2.5, color: "#5291ff", description: "Decent choice" },
+  { label: "A", minimum: 3, color: "#f040e7", description: "Recommended" },
+  { label: "A+", minimum: 3.5, color: "#f063e9", description: "Highly recommended" },
+  { label: "S", minimum: 3.75, color: "#fad60c", description: "Must pull" },
 ]
 
 const defaultRatingDescriptions = {
