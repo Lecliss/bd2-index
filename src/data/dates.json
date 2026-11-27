@@ -310,6 +310,14 @@
         "endDate": "2027-01-28"
     },
     {
+        "type": "banner",
+        "costumeId": 67303,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2027-01-14",
+        "endDate": "2027-02-11"
+    },
+    {
         "type": "powder",
         "costumeId": 999994,
         "startDate": "2027-01-14",
@@ -342,6 +350,12 @@
     {
         "type": "powder",
         "costumeId": 3303,
+        "startDate": "2027-02-11",
+        "endDate": "2027-02-25"
+    },
+    {
+        "type": "powder",
+        "costumeId": 67303,
         "startDate": "2027-02-11",
         "endDate": "2027-02-25"
     }
