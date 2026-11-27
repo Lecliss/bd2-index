@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-27",
   "entries": [
     {
         "type": "banner",
@@ -252,6 +252,98 @@
         "costumeId": 4202,
         "startDate": "2027-01-14",
         "endDate": "2027-01-28"
+    },
+    {
+        "type": "banner",
+        "costumeId": 67701,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "banner",
+        "costumeId": 3802,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-28"
+    },
+    {
+        "type": "banner",
+        "costumeId": 61002,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-28"
+    },
+    {
+        "type": "banner",
+        "costumeId": 3303,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-31",
+        "endDate": "2027-02-11"
+    },
+    {
+        "type": "banner",
+        "costumeId": 60602,
+        "isRerun": true,
+        "isLimited": false,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-07"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999994,
+        "isRerun": false,
+        "isLimited": false,
+        "startDate": "2026-12-31",
+        "endDate": "2027-01-14"
+    },
+    {
+        "type": "banner",
+        "costumeId": 999995,
+        "isRerun": false,
+        "isLimited": false,
+        "startDate": "2027-01-14",
+        "endDate": "2027-01-28"
+    },
+    {
+        "type": "powder",
+        "costumeId": 999994,
+        "startDate": "2027-01-14",
+        "endDate": "2027-01-28"
+    },
+    {
+        "type": "powder",
+        "costumeId": 67701,
+        "startDate": "2027-01-14",
+        "endDate": "2027-01-28"
+    },
+    {
+        "type": "powder",
+        "costumeId": 61002,
+        "startDate": "2027-01-28",
+        "endDate": "2027-02-11"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3802,
+        "startDate": "2027-01-28",
+        "endDate": "2027-02-11"
+    },
+    {
+        "type": "powder",
+        "costumeId": 999995,
+        "startDate": "2027-01-28",
+        "endDate": "2027-02-11"
+    },
+    {
+        "type": "powder",
+        "costumeId": 3303,
+        "startDate": "2027-02-11",
+        "endDate": "2027-02-25"
     }
   ]
 }

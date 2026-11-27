@@ -45,7 +45,7 @@ const ScheduleEntry = ({ entry, costume, type, onSelect }) => {
     : `../assets/illust/illust_inven_char${String(costumeId).padStart(6, "0")}.png`
   const icon = iconPath ? costumeIcons[iconPath] : null
   const elementColor = elementColors[costume?.element] ?? "#a4a9bc"
-  const name = isPlaceholder ? "Unknown costume" : costume?.name ?? `Costume ${costumeId}`
+  const name = isPlaceholder ? "Unknown costume (TBA)" : costume?.name ?? `Costume ${costumeId}`
   const bannerStatus = entry.isRerun ? "RERUN" : "FIRST PICKUP"
   const labels = type === "banner"
     ? [bannerStatus, ...(entry.isLimited ? ["LIMITED"] : [])]
@@ -196,7 +196,7 @@ const ScheduleTimeline = ({ title, entries, costumes, type, onSelectCostume }) =
             {title}
           </Typography>
           <Typography variant="caption" color="text.secondary">
-            {groupedEntries.length} upcoming {groupedEntries.length === 1 ? "period" : "periods"}
+            {groupedEntries.length} upcoming {groupedEntries.length === 1 ? "rotation" : "rotations"}
           </Typography>
         </Box>
       </Stack>
@@ -261,8 +261,14 @@ const ScheduleTimeline = ({ title, entries, costumes, type, onSelectCostume }) =
   )
 }
 
-const BannerAvailabilityTimeline = ({ entries, costumes, onSelectCostume }) => {
+const BannerAvailabilityTimeline = ({ entries, costumes, powderEntries, onSelectCostume }) => {
   const costumeById = new Map(costumes.map((costume) => [costume.id, costume]))
+  const powderDateByCostumeId = new Map()
+  for (const { costumeId, startDate } of [...powderEntries].sort((a, b) => a.startDate.localeCompare(b.startDate))) {
+    if (!powderDateByCostumeId.has(costumeId)) {
+      powderDateByCostumeId.set(costumeId, startDate)
+    }
+  }
   const sortedEntries = [...entries].sort((a, b) =>
     a.startDate.localeCompare(b.startDate) || b.endDate.localeCompare(a.endDate)
   )
@@ -351,6 +357,7 @@ const BannerAvailabilityTimeline = ({ entries, costumes, onSelectCostume }) => {
           const iconPath = `../assets/illust/illust_inven_char${String(entry.costumeId).padStart(6, "0")}.png`
           const icon = costumeIcons[iconPath]
           const name = costume?.name ?? `Costume ${entry.costumeId}`
+          const powderStartDate = powderDateByCostumeId.get(entry.costumeId)
           const startPosition = ((Date.parse(`${entry.startDate}T00:00:00Z`) - timelineStart) / timelineDuration) * 100
           const endPosition = ((Date.parse(`${entry.endDate}T00:00:00Z`) - timelineStart) / timelineDuration) * 100
           const bannerStatus = entry.isRerun ? "RERUN" : "FIRST PICKUP"
@@ -443,47 +450,57 @@ const BannerAvailabilityTimeline = ({ entries, costumes, onSelectCostume }) => {
                 </Stack>
               </Stack>
 
-              <Box
-                aria-hidden="true"
-                sx={{
-                  position: "relative",
-                  height: 18,
-                  borderRadius: 99,
-                  backgroundColor: "rgba(255, 255, 255, 0.035)",
-                }}
-              >
-                {dateMarkers.map((date) => {
-                  const position = ((Date.parse(`${date}T00:00:00Z`) - timelineStart) / timelineDuration) * 100
-
-                  return (
-                    <Box
-                      key={date}
-                      sx={{
-                        position: "absolute",
-                        top: 0,
-                        bottom: 0,
-                        left: `${position}%`,
-                        width: "1px",
-                        backgroundColor: "rgba(192, 198, 220, 0.18)",
-                      }}
-                    />
-                  )
-                })}
+              <Stack spacing={0.75} sx={{ minWidth: 0 }}>
                 <Box
                   sx={{
-                    position: "absolute",
-                    top: 2,
-                    bottom: 2,
-                    zIndex: 1,
-                    left: `${startPosition}%`,
-                    width: `${Math.max(endPosition - startPosition, 1)}%`,
-                    minWidth: 5,
+                    position: "relative",
+                    height: 18,
                     borderRadius: 99,
-                    background: `linear-gradient(90deg, ${elementColor}aa, ${elementColor})`,
-                    boxShadow: `0 0 12px ${elementColor}55`,
+                    backgroundColor: "rgba(255, 255, 255, 0.035)",
                   }}
-                />
-              </Box>
+                >
+                  {dateMarkers.map((date) => {
+                    const position = ((Date.parse(`${date}T00:00:00Z`) - timelineStart) / timelineDuration) * 100
+
+                    return (
+                      <Box
+                        key={date}
+                        sx={{
+                          position: "absolute",
+                          top: 0,
+                          bottom: 0,
+                          left: `${position}%`,
+                          width: "1px",
+                          backgroundColor: "rgba(192, 198, 220, 0.18)",
+                        }}
+                      />
+                    )
+                  })}
+                  <Box
+                    sx={{
+                      position: "absolute",
+                      top: 2,
+                      bottom: 2,
+                      zIndex: 1,
+                      left: `${startPosition}%`,
+                      width: `${Math.max(endPosition - startPosition, 1)}%`,
+                      minWidth: 5,
+                      borderRadius: 99,
+                      background: `linear-gradient(90deg, ${elementColor}aa, ${elementColor})`,
+                      boxShadow: `0 0 12px ${elementColor}55`,
+                    }}
+                  />
+                </Box>
+                <Typography
+                  variant="caption"
+                  color={powderStartDate ? "text.secondary" : "text.disabled"}
+                  sx={{ alignSelf: "flex-end", textAlign: "right" }}
+                >
+                  {powderStartDate
+                    ? `Goes to PoH shop on ${formatScheduleDate(powderStartDate)}.`
+                    : "Not added to PoH shop after banner."}
+                </Typography>
+              </Stack>
             </Box>
           )
         })}
@@ -504,9 +521,10 @@ export const Schedule = ({ show, dates = [], costumes = [], lastUpdated }) => {
   const bannerEntries = dates
     .filter((entry) => entry.type === "banner")
     .sort((a, b) => a.startDate.localeCompare(b.startDate))
+  const powderScheduleEntries = dates.filter((entry) => entry.type === "powder")
 
   const powderGroups = groupByStartDate(
-    dates.filter((entry) => entry.type === "powder")
+    powderScheduleEntries
   ).map((group) => ({
     ...group,
     entries: [
@@ -539,6 +557,7 @@ export const Schedule = ({ show, dates = [], costumes = [], lastUpdated }) => {
         <BannerAvailabilityTimeline
           entries={bannerEntries}
           costumes={costumes}
+          powderEntries={powderScheduleEntries}
           onSelectCostume={selectBannerCostume}
         />
         <ScheduleTimeline

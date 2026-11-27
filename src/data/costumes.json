@@ -3473,5 +3473,19 @@
 		"charName": "Valze",
 		"damageType": "Magical",
 		"element": "Darkness"
+	},
+	{
+		"id": 999994,
+		"name": "Geared Patroller",
+		"charName": "Rafina",
+		"damageType": "Physical",
+		"element": "Water"
+	},
+	{
+		"id": 999995,
+		"name": "Armored Soul",
+		"charName": "Lecliss",
+		"damageType": "Physical",
+		"element": "Wind"
 	}
 ]
